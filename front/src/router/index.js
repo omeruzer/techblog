@@ -8,7 +8,7 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: Home,
   },
   {
     path: '/contact',
@@ -16,12 +16,12 @@ const routes = [
     component:Contact
   },
   {
-    path: '/:category/:slug',
+    path: '/post/:id',
     name: 'Single',
     component:Single
   },
   {
-    path: '/:slug',
+    path: '/category/:id',
     name: 'Category',
     component:Category
   },

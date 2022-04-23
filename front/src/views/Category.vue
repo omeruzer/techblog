@@ -1,13 +1,13 @@
 <template>
     <div>
-        <CategoryHeader/>
-                <section class="section">
+        <CategoryHeader v-if="load" :category='category' />
+        <section class="section">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
                         <div class="page-wrapper">
                             <div class="blog-list clearfix">
-                                <div class="blog-box row">
+                                <div v-for="post,i in category.articles.lenght" :key="i" class="blog-box row">
                                     <div class="col-md-4">
                                         <div class="post-media">
                                             <a href="tech-single.html" title="">
@@ -49,7 +49,23 @@ import Sidebar from '../components/Sidebar.vue'
         components:{
             CategoryHeader,
             Sidebar
-        }
+        },
+        async created() {
+            await this.$store.dispatch('getCategory',this.$route.params.id)
+            console.log(this.load);
+            console.log(this.category);
+        },
+        methods: {
+            getData(){
+                return 
+            }
+        },
+        data() {
+            return {
+                category: this.$store.state.category.category[0],
+                load:this.$store.state.category.loaded
+            }
+        },
     }
 </script>
 

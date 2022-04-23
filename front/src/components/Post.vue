@@ -3,7 +3,7 @@
         <div class="blog-box row">
           <div class="col-md-4">
             <div class="post-media">
-                <router-link :to="'/'+article.category[0].slug+'/'+article.slug">
+                <router-link :to="'/post/'+article._id">
                     <a title="">
                         <img src="upload/tech_blog_01.jpg" alt="" class="img-fluid" />
                         <div class="hovereffect"></div>
@@ -17,7 +17,7 @@
 
           <div class="blog-meta big-meta col-md-8">
             <h4>
-              <router-link :to="'/'+article.category[0].slug+'/'+article.slug"><a title="">{{article.title}}</a></router-link>
+              <router-link :to="'/post/'+article._id"><a title="">{{article.title}}</a></router-link>
             </h4>
             <p>
               {{article.content}}

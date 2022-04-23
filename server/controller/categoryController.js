@@ -89,7 +89,7 @@ const get = (req,res)=>{
                     title:'$title',
                     slug:'$slug'
                 },
-                adwerds:{
+                articles:{
                     $push:'$articles'
                 }
             }
@@ -99,7 +99,7 @@ const get = (req,res)=>{
                 _id:'$_id._id',
                 title:'$_id.title',
                 slug:'$_id.slug',
-                adwerds:'$adwerds'
+                articles:'$articles'
             }
         },    
     ])

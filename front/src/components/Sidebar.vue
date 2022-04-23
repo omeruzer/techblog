@@ -4,7 +4,7 @@
                             <div class="widget">
                                 <div class="banner-spot clearfix">
                                     <div class="banner-img">
-                                        <img src="upload/banner_03.jpg" alt="" class="img-fluid">
+                                        <img src="/upload/banner_03.jpg" alt="" class="img-fluid">
                                     </div><!-- end banner-img -->
                                 </div><!-- end banner -->
                             </div><!-- end widget -->
@@ -15,7 +15,7 @@
                                     <div class="list-group">
                                         <a href="tech-single.html" class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="w-100 justify-content-between">
-                                                <img src="upload/tech_blog_08.jpg" alt="" class="img-fluid float-left">
+                                                <img src="/upload/tech_blog_08.jpg" alt="" class="img-fluid float-left">
                                                 <h5 class="mb-1">5 Beautiful buildings you need..</h5>
                                                 <small>12 Jan, 2016</small>
                                             </div>
@@ -30,7 +30,7 @@
                                     <div class="list-group">
                                         <a href="tech-single.html" class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="w-100 justify-content-between">
-                                                <img src="upload/tech_blog_08.jpg" alt="" class="img-fluid float-left">
+                                                <img src="/upload/tech_blog_08.jpg" alt="" class="img-fluid float-left">
                                                 <h5 class="mb-1">5 Beautiful buildings you need..</h5>
                                                 <small>12 Jan, 2016</small>
                                             </div>

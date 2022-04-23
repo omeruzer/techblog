@@ -1,7 +1,7 @@
 <template>
     <div class="wrapper">
       <Header/>
-      <router-view></router-view>
+        <router-view></router-view>
       <Footer/>
     </div>
 </template>
@@ -22,6 +22,5 @@ import Footer from './components/shared/Footer.vue'
   }
 </script>
 
-<style lang="scss" scoped>
-
+<style scoped>
 </style>

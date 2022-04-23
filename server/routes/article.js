@@ -7,7 +7,7 @@ const ArticleController = require('../controller/ArticleController')
 // add
 router.post('/add',ArticleController.add)
 
-// allsdd
+// all
 router.get('/all',ArticleController.all)
 
 // get

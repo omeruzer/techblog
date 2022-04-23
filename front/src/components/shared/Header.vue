@@ -19,7 +19,7 @@
                                             <div class="mega-menu-content clearfix">
                                                 <div class="tab">
                                                     <li v-for="category,i in categories" :key="i">
-                                                        <router-link :to="'/'+category.slug"><button class="tablinks">{{category.title}}</button></router-link>
+                                                        <router-link :to="'/category/'+category._id"><button class="tablinks">{{category.title}}</button></router-link>
                                                     </li>
                                                 </div>
 
